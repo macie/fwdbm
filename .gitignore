@@ -1,0 +1,20 @@
+# Allowlist for Go project
+
+# Ignore everything
+*
+
+# Allow CI configs
+!/.gitignore
+!/.github/workflows/*.yml
+!/Makefile
+
+# Allow source code...
+!*.go
+!go.sum
+!go.mod
+
+!README.md
+!LICENSE
+
+# ...also in subdirectories
+!*/
