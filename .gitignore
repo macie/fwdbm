@@ -5,7 +5,7 @@
 
 # Allow CI configs
 !/.gitignore
-!/.github/workflows/*.yml
+!/.github/**/*.yml
 !/Makefile
 
 # Allow source code...
